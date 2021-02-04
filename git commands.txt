@@ -1,0 +1,44 @@
+git status
+
+git init
+
+git add -stage
+git rm -- chached <file>  -to unstage
+git add . -add everything to the staging area
+
+git commit -m "message"
+
+git log -displays the commits
+git log --oneline -compresses the commits log into one line
+git checkout 660b059 -checks the commit
+git revert 660b059 -reverts to the previous commit
+git reset 660b059 -resets the commit and delete the latest commit while still retaining the txt file.
+git reset 660b059 --hard -resets the commit and delete the latest commit.
+
+git branch <branch name> -create new branch
+git checkout <branch name> -to go to the branch
+git branch -a -to show the branch list
+git branch -d <branch name> -to delete the branch but will ask that it is not merged yet
+git branch -D <branch name> -to delete the branch
+git checkout -b <branch name> -creates a new branch and switch to that branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
